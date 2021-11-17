@@ -3,20 +3,10 @@ package treasure;
 
 public abstract class Treasure {
 
-    private String name;
     private int value;
 
-    public Treasure(String name, int value){
-        this.name = name;
+    public Treasure(int value){
         this.value = value;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getValue() {
