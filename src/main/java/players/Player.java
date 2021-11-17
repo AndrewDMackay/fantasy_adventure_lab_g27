@@ -10,5 +10,9 @@ public abstract class Player {
     public Player(StatsType statsType){
         this.statsType = statsType;
     }
+
+    public StatsType getStatsType(){
+        return statsType;
+    }
 }
 
