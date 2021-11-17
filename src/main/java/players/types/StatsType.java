@@ -18,4 +18,20 @@ public enum StatsType {
         this.stamina = stamina;
         this.gold = gold;
     }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public int getMagic() {
+        return magic;
+    }
+
+    public int getStamina() {
+        return stamina;
+    }
+
+    public int getGold() {
+        return gold;
+    }
 }

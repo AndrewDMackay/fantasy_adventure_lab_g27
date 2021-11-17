@@ -5,13 +5,28 @@ import players.types.StatsType;
 
 public class Cleric extends Player {
 
+    private String name;
     private StatsType statsType;
 
-    public Cleric(StatsType statsType) {
+    public Cleric(String name, StatsType statsType) {
         super(statsType.CLERIC);
+        this.name = name;
     }
 
-    public StatsType getStatsType(){
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public StatsType getStatsType() {
         return statsType;
+    }
+
+    public void setStatsType(StatsType statsType) {
+        this.statsType = statsType;
     }
 }

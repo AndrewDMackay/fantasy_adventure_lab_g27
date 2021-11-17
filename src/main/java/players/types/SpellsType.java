@@ -14,4 +14,12 @@ public enum SpellsType {
         this.damage = damage;
         this.magic = magic;
     }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public int getMagic() {
+        return magic;
+    }
 }

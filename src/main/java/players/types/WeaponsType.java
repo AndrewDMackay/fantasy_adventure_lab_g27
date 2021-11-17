@@ -15,4 +15,12 @@ public enum WeaponsType {
         this.damage = damage;
         this.stamina = stamina;
     }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public int getStamina() {
+        return stamina;
+    }
 }

@@ -12,7 +12,12 @@ public class Goblin extends Enemy {
         super(enemyType.SMALL);
     }
 
-    public EnemyType getEnemyType(){
+    @Override
+    public EnemyType getEnemyType() {
         return enemyType;
+    }
+
+    public void setEnemyType(EnemyType enemyType) {
+        this.enemyType = enemyType;
     }
 }

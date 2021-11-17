@@ -11,7 +11,12 @@ public class Orc extends Enemy {
         super(enemyType.MEDIUM);
     }
 
-    public EnemyType getEnemyType(){
+    @Override
+    public EnemyType getEnemyType() {
         return enemyType;
+    }
+
+    public void setEnemyType(EnemyType enemyType) {
+        this.enemyType = enemyType;
     }
 }

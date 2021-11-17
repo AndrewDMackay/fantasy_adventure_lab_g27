@@ -11,7 +11,12 @@ public class Ogre extends Enemy {
         super(enemyType.LARGE);
     }
 
-    public EnemyType getEnemyType(){
+    @Override
+    public EnemyType getEnemyType() {
         return enemyType;
+    }
+
+    public void setEnemyType(EnemyType enemyType) {
+        this.enemyType = enemyType;
     }
 }

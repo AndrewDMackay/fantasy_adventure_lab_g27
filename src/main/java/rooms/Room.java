@@ -8,10 +8,12 @@ import java.util.ArrayList;
 
 public abstract class Room {
 
+    private String name;
     private ArrayList<Enemy> enemies;
     private ArrayList<Treasure> treasures;
 
-    public Room(){
+    public Room(String name){
+        this.name = name;
         this.enemies = new ArrayList<>();
         this.treasures = new ArrayList<>();
     }

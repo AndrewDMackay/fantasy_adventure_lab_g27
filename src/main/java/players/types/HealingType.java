@@ -14,4 +14,12 @@ public enum HealingType {
         this.healing = healing;
         this.magic = magic;
     }
+
+    public int getHealing() {
+        return healing;
+    }
+
+    public int getMagic() {
+        return magic;
+    }
 }

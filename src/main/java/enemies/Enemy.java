@@ -12,7 +12,11 @@ public abstract class Enemy {
         this.enemyType = enemyType;
     }
 
-    public EnemyType getEnemyType(){
+    public EnemyType getEnemyType() {
         return enemyType;
+    }
+
+    public void setEnemyType(EnemyType enemyType) {
+        this.enemyType = enemyType;
     }
 }
